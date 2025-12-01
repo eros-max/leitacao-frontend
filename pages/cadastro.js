@@ -21,7 +21,7 @@ async function sendUser(event) {
         password
     }
 
-    const response = await fetch("http://localhost:3333/cadastrar", {
+    const response = await fetch("https://fullstack-backend-five.vercel.app/cadastrar", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
