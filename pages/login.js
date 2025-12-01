@@ -15,7 +15,7 @@ async function login(event) {
         password
     }
 
-    const response = await fetch("https://fullstack-backend-livid.vercel.app/login", {
+    const response = await fetch("https://fullstack-backend-dun.vercel.app/login", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"

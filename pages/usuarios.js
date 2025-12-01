@@ -1,7 +1,7 @@
 const main = document.querySelector("main")
 
 async function buscarUsuarios() {
-    const users = await fetch("https://fullstack-backend-livid.vercel.app").then((response) => response.json())
+    const users = await fetch("https://fullstack-backend-dun.vercel.app").then((response) => response.json())
     users.map(user => {
         main.innerHTML += `
         <section>
